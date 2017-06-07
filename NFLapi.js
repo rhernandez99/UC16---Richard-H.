@@ -32,6 +32,6 @@ function displayResponse(data) {
     }
     else {
         document.getElementById("info").classInfo = "alert alert-success";
-        document.getElementById("info").innerHTML = " Name: " + info[0].Name + "<br/>" + " Category: " + info[0].Category + "<br/>" + "Arrest Count: " + info[0].arrest_count;
+        document.getElementById("info").innerHTML = " Name: " + info[0].Name + "<br/>" + " Category: " + info[0].Category + "<br/>" + "Arrest Count: " + info[0].arrest_count + "<br/>" + "<br/>" + " Name: " + info[1].Name + "<br/>" + " Category: " + info[1].Category + "<br/>" + "Arrest Count: " + info[1].arrest_count + "<br/>" + "<br/>" + " Name: " + info[2].Name + "<br/>" + " Category: " + info[2].Category + "<br/>" + "Arrest Count: " + info[2].arrest_count + "<br/>" + "<br/>" + " Name: " + info[3].Name + "<br/>" + " Category: " + info[3].Category + "<br/>" + "Arrest Count: " + info[3].arrest_count + "<br/>" + "<br/>" + " Name: " + info[4].Name + "<br/>" + " Category: " + info[4].Category + "<br/>" + "Arrest Count: " + info[4].arrest_count;
     }
 }
